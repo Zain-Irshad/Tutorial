@@ -1,0 +1,402 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;400,600;1,400&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #5c6b66;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row::before,
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/******************************************Header*************************************************/
+.ht{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ht .logo{
+    width: 30%;
+    background-color: #9999cb;
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 80px 10px;
+}
+
+.ht nav{
+    width: calc(70% - 20px);
+    background-color: #edeef0;
+    padding: 26px 20px 20px;
+    text-align:right;
+}
+
+.ht nav li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.ht nav a{
+    background-color: #fff;
+    padding: 40px;
+    text-align: left;
+    display: block;
+    font-size: 20px;
+    min-width: 160px;
+    transition: all 0.3s;
+}
+
+.ht nav a span{
+    display: block;
+    margin-bottom: 30px;
+}
+
+.ht nav a:hover{
+    background-color: #cb9998;
+    color: #fff;
+} 
+
+.hb{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-section{
+    width: 54%;
+    height: 690px;
+    background-image: url(../Practice/image/comparto-image-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.right-section{
+    width: calc(46% - 20px);
+    background-color: #edeef0;
+    padding: 50px 40px 88px;
+}
+
+.right-section h1{
+    margin-bottom: 30px;
+}
+
+.right-section p{
+    margin-bottom: 40px;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.right-section .box{
+    background-color: #cc9999;
+    color: #f2f2f2;
+    width: 130px;
+    display: block;
+    padding: 10px 20px;
+    transition: all 0.3s;
+}
+
+.right-section a:hover{
+    background-color: #816969;
+    color: #fff;
+}
+
+/***********************************section-2**********************************/
+
+.sec-2{
+    background-color: #9999cb;
+    margin-bottom: 10px;
+}
+
+.sec-2 p{
+    color: #fff;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.sec-2 .textbox{
+    width: 100%;
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.sec-2 .col{
+    display: inline-block;
+    width: 33%;
+}
+
+.fa-synagogue,
+.fa-chart-bar,
+.fa-images{
+    color: #fff;
+    font-size: 60px;
+}
+
+/************************section3************************/
+
+.sec-3{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-sec{
+    width: 40%;
+}
+
+.left-sec h2{
+    margin-bottom: 50px;
+}
+.left-sec p{
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.left-sec .block1{
+    background-color: #f2f2f2;
+    padding: 30px 40px;
+    margin-bottom: 10px;
+}
+
+.left-sec .block2{
+    background-color: #ddd;
+    padding: 40px 40px;
+
+}
+
+.left-sec .block2 p{
+    margin: 40px 0;
+}
+
+.left-sec .button{
+    background-color:#666768;
+    width: 130px;
+    color: #fafaf1;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 25px ;
+    transition: all 0.3s;
+
+}
+
+.left-sec a:hover{
+    background-color: #808080;
+    color: #fff;
+}
+
+.right-sec{
+    width:calc(60% - 20px);
+    height: 708px;
+    background-image: url(../Practice/image/comparto-image-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/*******************************Gallery**************************/
+#galery{
+    padding-bottom: 40px;
+}
+.gallery{
+    background-color: #87ceeb;
+}
+
+.gallery h1{
+    text-align: right;
+    color: #333;
+    padding: 35px 30px;
+}
+
+.gallery nav{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.gallery nav li{
+    
+    display: inline-block;
+    color: #333;
+}
+
+.gallery nav li a{
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+.gallery a span{
+    margin: 0 10px;
+    font-size: 30px;
+}
+
+.gallery a:hover{
+    color: #fff;
+}
+
+.gallery a:hover span{
+    color: #333;
+}
+
+.imge{
+    background-color: #fff;
+    margin-left: -10px;
+    margin-right: -10px;
+
+}
+
+.imge img{
+    height: 220px;
+}
+
+.imge .image{
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+/*******************************Contact**************************/
+
+.contact{
+    background-color: #99cc99;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.contact h1{
+    color: #fff;
+    text-align: center;
+    padding: 60px ;
+}
+
+
+
+.form{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+iframe{
+    padding-right: 10px;
+}
+
+.form-outer{
+    width: 38%;
+}
+
+.contact-form{
+    background-color: #f2f2f2;
+    height: 100%;
+    padding: 35px 65px;
+
+}
+
+.form-group{
+    margin-bottom: 25px;
+}
+
+.form-control{
+    border: none;
+    width: 100%;
+    padding: 11px 0;
+    line-height: 1.5;
+    font-size: 19px;
+    display: block;
+    background-color: transparent;
+    border-bottom: 1px solid #999A9B;
+}
+
+button{
+    background-color: #99CC99;
+    margin-left: auto;
+    display: block;
+    padding: 15px 40px;
+    border: none;
+    font-size: 1.1rem;
+    color: #fff;
+    transition: all 0.3s
+}
+
+button:hover{
+    background-color: #4e694e;
+    color: #fff;
+}
+
+.info{
+    padding-left: 10px;
+    width: 28%;
+}
+
+.info .text{
+    padding: 45px 40px;
+    background-color: #f2f2f2;
+   
+}
+
+.text p{
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 36px;
+    font-size: 20px;
+
+}
+
+/**************************footer*****************************/
+
+.icon{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icon a{
+    color: #666;
+
+}
+
+.icon .link{
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    display: inline-block;
+    margin: 8px;
+}
+
+.icon .tm-social-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.text-center{
+    text-align: center;
+    margin-bottom: 20px;
+}
